@@ -1,0 +1,98 @@
+<html>
+     <head>
+         <title></title>
+         <link rel="stylesheet" href="../assets/bootstrap/dist/css/bootstrap.min.css"/>
+         <link rel="stylesheet" href="../assets/bootstrap/bootstrapvalidator-0.5.2/bootstrapvalidator-0.5.2/dist/css/bootstrapValidator.css"/>
+         <meta charset="utf-8">
+    </head>
+    
+    <body>
+ 
+ <div class="container">
+    <div class="alert alert-info" id="aviso">
+    </div>
+    <form class="well form-horizontal" id = "contact_form" enctype='multipart/form-data' method = "POST">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registo do utilizador</b></h2></center></legend><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Nome</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+  <input  name="nome" placeholder="Nome do utilizador" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+    
+<div class="form-group">
+  <label class="col-md-4 control-label">Apelido</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+  <input  name="apelido" placeholder="apelido do utilizador" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+ 
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Email</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input  name="email" placeholder="exemplo@gmail.com" class="form-control"  type="text" required>
+    </div>
+  </div>
+</div>
+
+  
+<div class="form-group">
+  <label class="col-md-4 control-label">Senha</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-folder-close"></i></span>
+  <input  type ="password" name="password" placeholder="********" class="form-control" >
+    </div>
+  </div>
+</div>
+    
+    <div class="form-group">
+  <label class="col-md-4 control-label">Confirm senha</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-folder-close"></i></span>
+  <input  type ="password" name="password_confirm" placeholder="********" class="form-control" >
+    </div>
+  </div>
+</div>
+    
+
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-success">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+     <a href="../login.html" class="btn btn-info">Voltar ao login</a>
+</div>
+ 
+        
+        
+<script src="../assets/jquery/jquery.min.js"></script>
+<script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/bootstrap/bootstrapvalidator-0.5.2/bootstrapvalidator-0.5.2/dist/js/bootstrapValidator.min.js">
+</script>
+        <script src="../assets/js/validar_registo.js"></script>
+    </body>
+</html>

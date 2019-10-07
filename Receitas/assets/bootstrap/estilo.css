@@ -1,0 +1,27 @@
+
+aside{
+}
+
+section{
+	padding-top:20px;
+
+	margin-top:#;
+	color:#ffffff;
+}
+
+#tentar{
+       margin-top: 363px;
+       position: absolute;
+       margin-left: 460px;
+       width: 400px;
+}
+
+
+.verProduto,td{
+     margin-left: 200px;
+    background-color: azure;
+}
+
+td{
+     background-color: aquamarine;
+}

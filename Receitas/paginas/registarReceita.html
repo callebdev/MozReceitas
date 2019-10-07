@@ -1,0 +1,59 @@
+<html>
+     <head>
+         <title></title>
+         <link rel="stylesheet" href="../assets/bootstrap/dist/css/bootstrap.min.css"/>
+         <link rel="stylesheet" href="../assets/bootstrap/bootstrapvalidator-0.5.2/bootstrapvalidator-0.5.2/dist/css/bootstrapValidator.css"/>
+         <meta charset="utf-8">
+    </head>
+    
+    <body>
+ 
+ <div class="container">
+    <div class="alert alert-info" id="aviso">
+    </div>
+    <form class="well form-horizontal" id = "contact_form" enctype='multipart/form-data' method = "POST">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registo da receita</b></h2></center></legend><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Titulo da receita</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+  <input  name="titulo" placeholder="Titulo da receita" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+    
+    <div class="form-group">
+  <label for="exampleFormControlTextarea1">Descricao</label>
+  <textarea class="form-control rounded-0" id="descricao" name="descricao" rows="2" cols="2"></textarea>
+</div>
+   
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-success">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+     <a href="../index.php" class="btn btn-info">Voltar a pagina principal</a>
+</div>
+ 
+        
+        
+<script src="../assets/jquery/jquery.min.js"></script>
+<script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/bootstrap/bootstrapvalidator-0.5.2/bootstrapvalidator-0.5.2/dist/js/bootstrapValidator.min.js">
+</script>
+        <script src="../assets/js/registoReceita.js"></script>
+    </body>
+</html>
