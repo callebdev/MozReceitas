@@ -14,7 +14,7 @@ Moz Receitas is a web application for writing, publishing cooking recipes with m
 
 You can find the database script [HERE](https://github.com/callebdev/MozReceitas---Web/blob/master/Receitas/MozReceitas%20Screenshots%20%26%20DB/mozreceitas.sql).
 
-*The script comes with some insertions, so, if you run it, data will be aded to your DB such as recipes, accounts (passwords).
+* The script comes with some insertions, so, if you run it (the whole script), data will be added to your DB such as recipes, accounts (passwords).
 
 ## Screenshots
 
