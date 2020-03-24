@@ -8,7 +8,7 @@ Moz Receitas is a web application for writing, publishing cooking recipes with m
 * Log with an existing account
 * Change password
 * Create and publish recipes
-* View other users recipes
+* View other users' recipes
 
 ## Screenshots
 
