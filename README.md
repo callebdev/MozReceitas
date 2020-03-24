@@ -1,4 +1,15 @@
-# MozReceitas---Web
-pt-pt: Moz Receitas é uma aplicação web para escrever, publicar e compartilhar receitas de cozinha com vários usuários. A aplicação está na linguagem php e possui o framework Bootstrap.
+# MozReceitas
 
-En-en: Moz Receitas is a web application for writing, publishing and sharing cooking recipes with multiple users. The application is in php language and has the Bootstrap framework.
+Moz Receitas is a web application for writing, publishing cooking recipes with multiple users. The application's backend is in PHP, SQL for database and I used Bootstrap as my frontend framework.
+
+## Functions
+
+* Create an account
+* Log with an existing account
+* Change password
+* Create and publish recipes
+* View other users recipes
+
+## Screenshots
+
+(Coming soon...)
