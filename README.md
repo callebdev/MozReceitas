@@ -1,7 +1,6 @@
 # MozReceitas
 
-Moz Receitas is a web application for writing, publishing cooking recipes with multiple users. The application's backend is in PHP, SQL for database and I used Bootstrap as my frontend framework.
-
+Moz Receitas is a web application for writing, publishing cooking recipes with multiple users.
 ## Functions
 
 * Create an account
