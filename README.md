@@ -10,11 +10,24 @@ Moz Receitas is a web application for writing, publishing cooking recipes with m
 * Create and publish recipes
 * View other users' recipes
 
+## Frontend
+
+* [HTML](https://www.w3schools.com/html/html5_intro.asp)- The markup language used for frontend
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)- CSS framework used for frontend
+
+## Backend
+
+* [PHP7](https://www.php.net)- The programming language used for backend
+
 ## Database
 
 You can find the database script [HERE](https://github.com/callebdev/MozReceitas---Web/blob/master/Receitas/MozReceitas%20Screenshots%20%26%20DB/mozreceitas.sql).
 
 * The script comes with some insertions, so, if you run it (the whole script), data will be added to your DB such as recipes, accounts (passwords).
+
+## Versioning
+
+I use [GitHub](https://github.com/) for versioning.
 
 ## Screenshots
 
@@ -36,5 +49,10 @@ You can find the database script [HERE](https://github.com/callebdev/MozReceitas
   </tr>
 </table>
 
-### Extras
+## Extras
+
+### Authors
+
+**Calleb Joel Miquissene** - [callebdev](https://github.com/callebdev)
+
 The entire app is in Portuguese (functions, variables, texts).
