@@ -54,4 +54,4 @@ I use [GitHub](https://github.com/) for versioning.
 
 **Calleb Joel Miquissene** - [callebdev](https://github.com/callebdev)
 
-The entire app is in Portuguese (functions, variables, texts).
+*The entire app is in Portuguese (functions, variables, texts).
