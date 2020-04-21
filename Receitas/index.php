@@ -12,7 +12,6 @@
         $nome = $_SESSION['nome'];
         $apelido = $_SESSION['apelido'];
         ?>
-       
         
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -26,8 +25,6 @@
                <a class="navbar-brand" href="index.php">🥧 Moz Receitas</a>
           
         </div>
-          
-        
             <ul class="nav navbar-nav">     
               <!--Opcao para criar novos funcionarios -->
               <li class="active"><a  href="paginas/registarReceita.html">📝 Nova Receita</a></li>           
@@ -42,19 +39,17 @@
               <ul class="dropdown-menu">
                 <li><a href="paginas/trocarSenha.html"><span class="glyphicon glyphicon-wrench"></span> Trocar senha</a></li> 
                 <li role="separator" class="divider"></li>
-                  <li><a href="utils/sair.php"><span class="glyphicon glyphicon-off"></span> Sair</a></li>
-                        
+                  <li><a href="utils/sair.php"><span class="glyphicon glyphicon-off"></span> Sair</a></li>        
               </ul>   
             </li>
           </ul>
 
-            </div>
+        </div>
         </nav>
 
         <center>
 
             <br><br>
-          
             <h1>
               👤<br>
               <?php echo "Bem Vindo! <br> Sr.(a) ".$nome." ".$apelido ; ?>
@@ -62,14 +57,9 @@
               <a href="paginas/registarReceita.html" class="btn btn-info">CRIE UMA NOVA RECEITA</a>
               <br><br>
               <a href="paginas/lista.php">VEJA TODAS AS RECEITAS POSTADAS AQUI 👇</a>
-
             </h1>
-
         </center>
-        
-        
-        
-        
+
         <script src="assets/jquery/jquery.min.js"></script>
         <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
