@@ -15,14 +15,9 @@
 
 <?php
      session_start();
-
      $buscar_receita = mysqli_query($con, "select *from receita");
-
-
 ?>
-
-
-
+  
 </br>
 
 <div class="container">
@@ -38,7 +33,7 @@
             
             <?php
                  while($receita = $buscar_receita->fetch_array()){
-                     ?>
+             ?>
            <tr>
                <td><?php echo $receita['titulo']; ?><br><br></td>
                <td><?php echo $receita['descricao']; ?><br><br></td>
@@ -53,14 +48,12 @@
 
            <?php }?>
            </table></center>
-
-           <br><br>
-
-    
+  
+           <br><br>  
+  
     <a href="../index.php" class="btn btn-info">Voltar a pagina Principal</a>
 </div>
-
-
+  
 </body>
 </html>
 
